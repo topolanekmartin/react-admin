@@ -23,6 +23,10 @@ export const Button = styled('button')<ButtonProps>`
 		background-color: #c0c0c0;
 	}
 
+	${props => props.theme.mediaQuery.lg} {
+		padding: 7px;
+	}
+
 	${(props: ButtonProps) => props.success && `
 		color: #fff;
 		background-color: ${props.theme.color.green};

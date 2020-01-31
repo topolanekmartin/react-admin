@@ -8,6 +8,15 @@ export const Sidebar = styled("div")`
 	width: 350px;
 	height: 100%;
 	background-color: ${props => props.theme.color.darkBlue};
+
+	${props => props.theme.mediaQuery.lg} {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		height: auto;
+		padding: 10px 15px;
+	}
 `
 
 export const Wrap = styled("div")<{divider?: Boolean, stretch?: Boolean}>`
@@ -27,6 +36,10 @@ export const Logo = styled("img")`
 	margin: 0 auto;
 	max-width: 100%;
 	border-radius: ${props => props.theme.radius};
+
+	${props => props.theme.mediaQuery.lg} {
+		margin: 0;
+	}
 `
 
 export const Icon = styled(TurnOffIcon)`

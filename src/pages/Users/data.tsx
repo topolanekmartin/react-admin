@@ -101,6 +101,12 @@ export const TableDataItems : TableDatasProps = {data: [
 		licence: 'Licence 1, Licence 2'
 	},
 	{
+		id: 123455,
+		email: 'slosar@atlasgroup.cz',
+		name: 'Martin Šlosar',
+		licence: 'Licence 1, Licence 2'
+	},
+	{
 		id: 654321,
 		email: 'trehak@atlasgroup.cz',
 		name: 'Tomáš Řehák',

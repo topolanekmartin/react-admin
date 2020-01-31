@@ -35,6 +35,6 @@ export const Table = styled('div')`
 	}
 
 	.rdt_TableCell {
-	}
 		padding: 5px;
+	}
 `;

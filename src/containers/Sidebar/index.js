@@ -1,1 +1,1 @@
-export { default } from './Sidebar';
+export { SidebarContainer, SidebarContainerMobile } from './Sidebar';
